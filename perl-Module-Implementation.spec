@@ -9,7 +9,7 @@
 
 Name:		perl-Module-Implementation
 Version:	0.06
-Release:	5.1%{?dist}
+Release:	6%{?dist}
 Summary:	Loads one of several alternate underlying implementations for a module
 Group:		Development/Libraries
 License:	Artistic 2.0
@@ -101,6 +101,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Module::Implementation.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.06-6
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 0.06-5.1
 - Rebuild for perl 5.16
 
